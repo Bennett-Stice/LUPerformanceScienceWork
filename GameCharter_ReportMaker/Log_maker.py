@@ -1096,11 +1096,11 @@ def up_game_log(cursor,updated_date,file_name):
 def main():
     try:
         connection = psycopg2.connect(
-            dbname="ps1",
-            user="pythoncon",
-            password="password",
-            host="18.217.248.114",
-            port="5432"
+            dbname=#,
+            user=#,
+            password=#,
+            host=#,
+            port=#
         )
         
         with connection.cursor() as cursora:
@@ -1155,7 +1155,7 @@ def main():
         # This block will be executed whether an exception occurs or not
         if connection:
             connection.close()
-            print("Connection closed. GO MUTHAAFUCKIN LIONS!!!!")
+            print("Connection closed. GO LIONS!!!!")
 
 if __name__ == "__main__":
     main()

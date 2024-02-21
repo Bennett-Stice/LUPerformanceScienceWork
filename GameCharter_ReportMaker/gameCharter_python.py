@@ -41,11 +41,11 @@ def get_max_pitch_id(cursor):
 def main():
     try:
         connection = psycopg2.connect(
-            dbname="ps1",
-            user="pythoncon",
-            password="password",
-            host="18.217.248.114",
-            port="5432"
+            dbname=#,
+            user=#,
+            password=#,
+            host=#,
+            port=#
         )
 
         with connection.cursor() as cursor:
